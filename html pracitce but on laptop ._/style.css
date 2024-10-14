@@ -1,0 +1,44 @@
+body{
+	background-color: #03312E;
+}
+
+#welcomeTitle{
+
+	font-size: 400%;
+	padding: 20px; 
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    margin: 0;
+
+	position: relative;
+	top: -100px;
+
+}
+
+.Gaegu{
+  font-family: "Gaegu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+
+  font-size: 100%;
+}
+
+
+.centerButton{	
+	display: block;
+	margin:auto;
+}
+
+#interestButton{
+	position: absolute;
+
+	top: 550px;
+	left: 600px;
+
+}
+
+
+

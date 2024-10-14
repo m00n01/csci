@@ -1,0 +1,57 @@
+body{
+	background-color:black;
+	font-family: "Comfortaa";
+}
+button{
+	width:auto;
+	color:white;
+	background-color: transparent;
+	border:none;
+	padding:0;
+	background:none;
+	font-family:"Comfortaa";
+	font-size: 50px;
+}
+
+#AboutMe{
+	position: absolute;
+
+	top:140px;
+	left:550px;
+}
+
+#Music{
+	position:absolute;
+
+	top:300px;
+	left:600px;
+}
+
+#EverythingElse{
+	position: relative;
+
+	top: 350px;
+	left: 500px;
+}
+
+h1{
+	color:white;
+	font-family:"Comfortaa";
+}
+p{
+	color:white;
+	font-family:"Comfortaa";
+}
+hr{
+	color:whitesmoke;
+}
+
+.fadeIn{
+	animation: fadeIn;
+	animation-duration: 3s;
+}
+
+@keyframes fadeIn{
+	0%{opacity: 0;}
+	100%{opacity: 1;}
+}
